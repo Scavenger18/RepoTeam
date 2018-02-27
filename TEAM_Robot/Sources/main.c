@@ -36,8 +36,14 @@
 #include "BitIoLdd2.h"
 #include "SW1.h"
 #include "BitIoLdd3.h"
+#include "AS1.h"
+#include "ASerialLdd3.h"
+#include "TI1.h"
+#include "TimerIntLdd1.h"
+#include "TU1.h"
 #include "CLS1.h"
 #include "RTT1.h"
+/*
 #include "LED_IR.h"
 #include "LEDpin3.h"
 #include "BitIoLdd5.h"
@@ -76,6 +82,7 @@
 #include "QuadInt.h"
 #include "TimerIntLdd2.h"
 #include "TU_QuadInt.h"
+*/
 #include "TMOUT1.h"
 #include "USB1.h"
 #include "CDC1.h"
