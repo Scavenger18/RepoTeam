@@ -43,46 +43,6 @@
 #include "TU1.h"
 #include "CLS1.h"
 #include "RTT1.h"
-/*
-#include "LED_IR.h"
-#include "LEDpin3.h"
-#include "BitIoLdd5.h"
-#include "RefCnt.h"
-#include "IR1.h"
-#include "BitIoLdd6.h"
-#include "IR2.h"
-#include "BitIoLdd7.h"
-#include "IR3.h"
-#include "BitIoLdd8.h"
-#include "IR4.h"
-#include "BitIoLdd9.h"
-#include "IR5.h"
-#include "BitIoLdd10.h"
-#include "IR6.h"
-#include "BitIoLdd11.h"
-#include "Q4CLeft.h"
-#include "C12.h"
-#include "BitIoLdd16.h"
-#include "C23.h"
-#include "BitIoLdd17.h"
-#include "Q4CRight.h"
-#include "C13.h"
-#include "BitIoLdd18.h"
-#include "C25.h"
-#include "BitIoLdd19.h"
-#include "MOTTU.h"
-#include "DIRL.h"
-#include "BitIoLdd12.h"
-#include "PWMR.h"
-#include "PwmLdd2.h"
-#include "DIRR.h"
-#include "BitIoLdd13.h"
-#include "PWML.h"
-#include "PwmLdd3.h"
-#include "QuadInt.h"
-#include "TimerIntLdd2.h"
-#include "TU_QuadInt.h"
-*/
 #include "TMOUT1.h"
 #include "USB1.h"
 #include "CDC1.h"
@@ -92,6 +52,7 @@
 #include "MCUC1.h"
 #include "ADC_Bat.h"
 #include "TmDt1.h"
+#include "HF2.h"
 #include "IFsh1.h"
 #include "IntFlashLdd1.h"
 #include "BUZ1.h"
@@ -109,6 +70,7 @@
 #include "IO_Map.h"
 /* User includes (#include below this line is not maintained by Processor Expert) */
 #include "Application.h"
+
 
 void (*f)(void) = NULL;
 int i;
@@ -132,6 +94,8 @@ int main(void)
     __asm("nop");
   }
 #endif
+
+
   APP_Start();
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/

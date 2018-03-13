@@ -45,8 +45,8 @@
   #define LED1_On()       /* empty */
   #define LED1_Off()      /* empty */
   #define LED1_Neg()      /* empty */
-  #define LED1_Get()      /* empty */
-  #define LED1_Put(val)   FALSE
+  #define LED1_Get()      FALSE
+  #define LED1_Put(val)   /* empty */
   #define LED1_Open()     /* NYI */
   #define LED1_Close()    /* NYI */
 #endif

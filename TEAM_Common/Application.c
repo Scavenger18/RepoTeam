@@ -12,6 +12,8 @@
 #include "LED.h"
 #include "WAIT1.h"
 #include "CS1.h"
+
+
 #include "KeyDebounce.h"
 #include "CLS1.h"
 #include "KIN1.h"
@@ -179,12 +181,52 @@ static void APP_AdoptToHardware(void) {
 #endif
 }
 
+void crit_lab1(void){
+	CS1_CriticalVariable();
+	CS1_EnterCritical();
+	//Badaboom
+		LED1_Neg();
+
+	CS1_ExitCritical();
+}
+
+void led_lab(void){
+
+	  LED1_On();
+	  LED2_Off();
+	  WAIT1_Waitms(100);
+
+//	  LEDPin2_NegVal();
+	  LED1_Off();
+	  LED2_On();
+	  WAIT1_Waitms(100);
+
+}
+
+void hardfault_lab(void){
+	__asm volatile("blx r3");
+}
 void APP_Start(void) {
   PL_Init();
   APP_AdoptToHardware();
   __asm volatile("cpsie i"); /* enable interrupts */
+
+  EVNT_SetEvent(EVNT_STARTUP);
+
   for(;;) {
+	  /*Write Application Function-Code here */
+
+	 // led_lab();
+
+	 // crit_lab1();
+
+	 // hardfault_lab();
+
+
+	  EVNT_HandleEvent(APP_EventHandler,TRUE);
+
   }
+
 }
 
 

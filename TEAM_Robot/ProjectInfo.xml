@@ -64,6 +64,7 @@
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\CS1.c</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\Cpu.c</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\HF1.c</PathName>
+      <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\HF2.c</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\IFsh1.c</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\IntFlashLdd1.c</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\KIN1.c</PathName>
@@ -154,6 +155,8 @@
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\FSL_USB_Stack_Config.h</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\HF1.h</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\HF1config.h</PathName>
+      <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\HF2.h</PathName>
+      <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\HF2config.h</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\IFsh1.h</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\IO_Map.h</PathName>
       <PathName>C:\Users\Simon\Documents\HSLU\FS18\INTRO\RepoTeam\TEAM_Robot\Generated_Code\IntFlashLdd1.h</PathName>

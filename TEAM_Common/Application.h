@@ -19,4 +19,10 @@ void APP_EventHandler(EVNT_Handle event);
 
 void APP_Start(void);
 
+void led_lab();
+void crit_lab1();
+void hardfault_lab();
+void event_lab();
+
+
 #endif /* SOURCES_FS2016_COMMON_APPLICATION_H_ */

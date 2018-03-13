@@ -388,6 +388,11 @@ Module "TmDt1"     (component GenericTimeDate)
    - TmDt1_DeInit -Deinitializes the driver.
    - TmDt1_Init -Initialization method
 
+Module "HF2"       (component HardFault)
+   - HF2_HardFaultHandler -Hard Fault Handler
+   - HF2_Deinit -Deinitializes the driver
+   - HF2_Init -Initializes the driver
+
 Module "Cpu"       (component MK22FN1M0LK12)
    - Cpu_EnableInt -Enables all maskable interrupts.
    - Cpu_DisableInt -Disables all maskable interrupts.
