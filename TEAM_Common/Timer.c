@@ -22,10 +22,17 @@
 #include "TmDt1.h"
 
 
+
 void TMR_OnInterrupt(void) {
   static unsigned int cntr = 0;
   /* this one gets called from an interrupt!!!! */
   /*! \todo Add code for a blinking LED here */
+  if((cntr%(1000/TMR_TICK_MS))==0){
+	 // do event
+	  EVNT_SetEvent(EVNT_LED_HEARTBEAT);
+	  cntr = 0;
+  }
+  cntr++;
 }
 
 void TMR_Init(void) {
