@@ -830,7 +830,7 @@ autoselected pull
         <Interrupt v="INT_FTM0" />
         <Interrupt_priority v="minimal priority" />
       </boolgroup>
-      <Interrupt_period v="10 ms" />
+      <Interrupt_period v="1000 ms" />
       <Same_period_in_modes v="yes" />
       <Component_uses_entire_timer v="no" />
       <group name="Initialization">
@@ -853,7 +853,7 @@ autoselected pull
               <Interrupt v="INT_FTM0" />
               <Interrupt_priority v="minimal priority" />
             </boolgroup>
-            <Interrupt_period v="10 ms" />
+            <Interrupt_period v="1000 ms" />
             <group name="Initialization">
               <Enabled_in_init__code v="yes" />
               <group name="Event mask">
@@ -932,7 +932,7 @@ autoselected pull
       </enumgroup>
       <enumgroup name="Counter restart" v="On-match">
         <Period_device v="FTM0_MOD" />
-        <Period v="10 ms" />
+        <Period v="1000 ms" />
         <boolgroup name="Interrupt" v="Enabled">
           <Interrupt v="INT_FTM0" />
           <Interrupt_priority v="minimal priority" />

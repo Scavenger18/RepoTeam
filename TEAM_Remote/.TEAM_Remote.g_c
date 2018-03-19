@@ -153,7 +153,7 @@
       <XtraAge66>1281054441</XtraAge66>
       <XtraAge67>1281054441</XtraAge67>
       <XtraAge69>1280596690</XtraAge69>
-      <XtraAge70>1281054441</XtraAge70>
+      <XtraAge70>1282628689</XtraAge70>
       <GenExtraFileType70>4</GenExtraFileType70>
       <GenExtraFileType69>5</GenExtraFileType69>
       <GenExtraFileType68>4</GenExtraFileType68>
@@ -601,7 +601,7 @@
     </GenFiles>
     <SignalListFile>Documentation\TEAM_Remote_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>115</ProjectModificationStamp>
+    <ProjectModificationStamp>117</ProjectModificationStamp>
   </Options>
   <CpuID_7>
     <Generated>true</Generated>
@@ -907,6 +907,8 @@
       <OnChannel7_Selected>1</OnChannel7_Selected>
       <OnChannel7_Name>TU1_OnChannel7</OnChannel7_Name>
       <OnChannel7_Priority>interrupts disabled</OnChannel7_Priority>
+      <ISR_CounterIntISRHandle />
+      <ISR_ModuloIntISRHandle />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
@@ -924,6 +926,7 @@
       <AsemblAge>-1</AsemblAge>
       <GenNumMethods>0</GenNumMethods>
       <GenNumEvents>0</GenNumEvents>
+      <ISR_Handle />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
@@ -1137,7 +1140,7 @@
         <GenExtraFilesCount>0</GenExtraFilesCount>
       </InhrCompID_13>
     </InhrCompID_11>
-    <InhrCompID_458>
+    <InhrCompID_462>
       <Generated>false</Generated>
       <GenCompName />
       <GenComponentVersion>??.???</GenComponentVersion>
@@ -1164,7 +1167,7 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>0</GenExtraFilesCount>
-    </InhrCompID_458>
+    </InhrCompID_462>
   </ComponentID_9>
   <ComponentID_15>
     <Generated>false</Generated>
@@ -1270,6 +1273,8 @@
       <OnError_Selected>1</OnError_Selected>
       <OnError_Name>SM2_OnError</OnError_Name>
       <OnError_Priority>interrupts disabled</OnError_Priority>
+      <ISR_InpIntISRHandle />
+      <ISR_OutIntISRHandle />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
@@ -1514,8 +1519,8 @@
     <GenComponentVersion>02.161</GenComponentVersion>
     <GenDriverVersion>01.02</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1281054442</HeaderAge>
-    <CodeAge>1281054442</CodeAge>
+    <HeaderAge>1282625130</HeaderAge>
+    <CodeAge>1282625130</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>14</GenNumMethods>
     <Enable>false</Enable>
@@ -1567,8 +1572,8 @@
       <GenComponentVersion>01.018</GenComponentVersion>
       <GenDriverVersion>01.02</GenDriverVersion>
       <GenEventModule>Events</GenEventModule>
-      <HeaderAge>1281054442</HeaderAge>
-      <CodeAge>1281054442</CodeAge>
+      <HeaderAge>1282625130</HeaderAge>
+      <CodeAge>1282625130</CodeAge>
       <AsemblAge>-1</AsemblAge>
       <GenNumMethods>17</GenNumMethods>
       <Init>true</Init>
@@ -1634,8 +1639,8 @@
     <GenComponentVersion>01.164</GenComponentVersion>
     <GenDriverVersion>01.11</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1281054442</HeaderAge>
-    <CodeAge>1281054442</CodeAge>
+    <HeaderAge>1282625130</HeaderAge>
+    <CodeAge>1282625130</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>22</GenNumMethods>
     <Init>true</Init>
@@ -3272,7 +3277,7 @@
         <GenExtraFilesCount>0</GenExtraFilesCount>
       </InhrCompID_33>
     </InhrCompID_32>
-    <InhrCompID_459>
+    <InhrCompID_463>
       <Generated>false</Generated>
       <GenCompName />
       <GenComponentVersion>??.???</GenComponentVersion>
@@ -3301,8 +3306,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>0</GenExtraFilesCount>
-    </InhrCompID_459>
-    <InhrCompID_460>
+    </InhrCompID_463>
+    <InhrCompID_464>
       <Generated>false</Generated>
       <GenCompName />
       <GenComponentVersion>??.???</GenComponentVersion>
@@ -3331,8 +3336,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>0</GenExtraFilesCount>
-    </InhrCompID_460>
-    <InhrCompID_461>
+    </InhrCompID_464>
+    <InhrCompID_465>
       <Generated>false</Generated>
       <GenCompName />
       <GenComponentVersion>??.???</GenComponentVersion>
@@ -3361,7 +3366,7 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>0</GenExtraFilesCount>
-    </InhrCompID_461>
+    </InhrCompID_465>
   </ComponentID_27>
   <ComponentID_37>
     <Generated>false</Generated>
@@ -3898,6 +3903,7 @@
       <OnInterrupt_Selected>1</OnInterrupt_Selected>
       <OnInterrupt_Name>EInt1_OnInterrupt</OnInterrupt_Name>
       <OnInterrupt_Priority>interrupts disabled</OnInterrupt_Priority>
+      <ISR_IntISRHandle />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
@@ -4053,6 +4059,7 @@
       <OnInterrupt_Selected>1</OnInterrupt_Selected>
       <OnInterrupt_Name>EInt1_OnInterrupt</OnInterrupt_Name>
       <OnInterrupt_Priority>interrupts disabled</OnInterrupt_Priority>
+      <ISR_IntISRHandle />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
@@ -4208,6 +4215,7 @@
       <OnInterrupt_Selected>1</OnInterrupt_Selected>
       <OnInterrupt_Name>EInt1_OnInterrupt</OnInterrupt_Name>
       <OnInterrupt_Priority>interrupts disabled</OnInterrupt_Priority>
+      <ISR_IntISRHandle />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
@@ -4363,6 +4371,7 @@
       <OnInterrupt_Selected>1</OnInterrupt_Selected>
       <OnInterrupt_Name>EInt1_OnInterrupt</OnInterrupt_Name>
       <OnInterrupt_Priority>interrupts disabled</OnInterrupt_Priority>
+      <ISR_IntISRHandle />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
@@ -4518,6 +4527,7 @@
       <OnInterrupt_Selected>1</OnInterrupt_Selected>
       <OnInterrupt_Name>EInt1_OnInterrupt</OnInterrupt_Name>
       <OnInterrupt_Priority>interrupts disabled</OnInterrupt_Priority>
+      <ISR_IntISRHandle />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
@@ -5814,6 +5824,7 @@
       <GenNumMethods>1</GenNumMethods>
       <Init>false</Init>
       <GenNumEvents>0</GenNumEvents>
+      <ISR_InterruptIsrName_OTG_ID_CHG />
       <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
       <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>

@@ -1404,7 +1404,7 @@ push-pull
         <Interrupt v="INT_FTM1" />
         <Interrupt_priority v="medium priority" />
       </boolgroup>
-      <Interrupt_period v="200 ms" />
+      <Interrupt_period v="10 ms" />
       <Same_period_in_modes v="yes" />
       <Component_uses_entire_timer v="no" />
       <group name="Initialization">
@@ -1427,7 +1427,7 @@ push-pull
               <Interrupt v="INT_FTM1" />
               <Interrupt_priority v="medium priority" />
             </boolgroup>
-            <Interrupt_period v="200 ms" />
+            <Interrupt_period v="10 ms" />
             <group name="Initialization">
               <Enabled_in_init__code v="yes" />
               <group name="Event mask">
@@ -1512,7 +1512,7 @@ push-pull
         <group name="Channel 0">
           <enumgroup name="Mode" v="Compare">
             <Compare v="FTM1_C0V" />
-            <Offset v="200 ms" />
+            <Offset v="10 ms" />
             <enumgroup name="Output on compare" v="Disconnect">
               <EmptySection_DummyValue />
             </enumgroup>

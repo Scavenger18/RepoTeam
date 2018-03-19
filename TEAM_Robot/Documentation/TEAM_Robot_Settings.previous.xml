@@ -4900,40 +4900,6 @@ autoselected pull
       <event name="OnError" v="don&amp;apos;t generate code" />
     </Events>
   </Bean>
-  <Bean name="CS2" type="CriticalSection">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="CS2" />
-      <SDK v="MCUC1" />
-      <Use_Processor_Expert_Default v="no" />
-      <Use_FreeRTOS v="no" />
-    </Properties>
-    <Methods>
-      <CriticalVariable v="generate code" />
-      <EnterCritical v="generate code" />
-      <ExitCritical v="generate code" />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="CS3" type="CriticalSection">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="CS3" />
-      <SDK v="MCUC1" />
-      <Use_Processor_Expert_Default v="no" />
-      <Use_FreeRTOS v="no" />
-    </Properties>
-    <Methods>
-      <CriticalVariable v="generate code" />
-      <EnterCritical v="generate code" />
-      <ExitCritical v="generate code" />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
   <Bean name="HF2" type="HardFault">
     <Enabled v="Y" />
     <Properties>
